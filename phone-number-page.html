@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <title>Telegram Loyihasi</title>
+</head>
+<body>
+    <header class="scan-header">
+        <div class="scan-buttons">
+            <a class="icon1" href="scan-page.html"><i class="fas fa-arrow-left"></i></a>
+            <a class="icon2" href="">Settings</a>
+        </div>
+        <div class="number-info">
+            <h3>Your Phone Number</h3>
+            <p>Please confirm your country code</p>
+            <p>and enter your phone number.</p>
+            <form>
+                <select id="selekt" oninput="ol()">
+                    <option>Uzbekistan</option>
+                    <option>Afghanistan</option>
+                    <option>Russian Federation</option>
+                    <option>Argentina</option>
+                    <option>USA</option>
+                    <option>Australia</option>
+                    <option>Azerbaijan</option>
+                    <option>Brazil</option>
+                </select>
+                <div class="inputs">
+                    <input class="input1" type="text" value="+998" readonly id="input1">
+                    <input class="input2" id="myInput" oninput="myFunction()" type="text" placeholder=" - -  - - -  - - - -" required>
+                </div>
+                <a class="next" href="confirm-page.html">NEXT</a>
+                <a class="back-qr" href="scan-page.html">Quick log in using QR code</a>
+            </form>
+        </div>
+    </header>
+    <script src="./js/index.js"></script>
+</body>
+</html>
+                

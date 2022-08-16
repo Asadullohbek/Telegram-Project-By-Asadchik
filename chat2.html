@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <title>Welcome to Telegram</title>
+</head>
+<body>
+    <div class="chats-main">
+
+        <div class="names">
+            <div class="search-div">
+                <button><i class="fas fa-bars"></i></button>
+                <input type="text" placeholder="Search">
+            </div>
+            
+            <div class="chat-item1">
+                <div class="div-qismlari1">
+                    <a href="chat1.html"><img src="./img/item1.png" alt=""></a>
+                </div>
+                <div class="div-qismlari2">
+                    <a href="chat1.html">Eva Summer</a>
+                </div>
+            </div>
+
+            <div class="chat-item1">
+                <div class="div-qismlari1">
+                    <a href="#"><img src="./img/chat1-img.png" alt=""></a>
+                </div>
+                <div class="chat1-qismlari">
+                    <a href="#">Alexandra Smith</a>
+                </div>
+            </div>
+
+            <div class="chat-item1">
+                <div class="div-qismlari1">
+                    <a href="chat3.html"><img src="./img/item3.png" alt=""></a>
+                </div>
+                <div class="div-qismlari2">
+                    <a href="chat3.html">Mike Apple</a>
+                </div>
+            </div>
+
+            <div class="chat-item1">
+                <div class="div-qismlari1">
+                    <a href="#"><img src="./img/item4.png" alt=""></a>
+                </div>
+                <div class="div-qismlari2">
+                    <a href="#"><i class="fas fa-user-friends"></i> Evening Club</a>
+                </div>
+            </div>
+
+            <div class="chat-item1">
+                <div class="div-qismlari1">
+                    <a href="#"><img src="./img/item5.png" alt=""></a>
+                </div>
+                <div class="div-qismlari2">
+                    <a href="#"><i class="fas fa-user-friends"></i> Old Pirates</a>
+                </div>
+            </div>
+
+
+            <div class="chat-item1">
+                <div class="div-qismlari1">
+                    <a href="#"><img src="./img/item6.png" alt=""></a>
+                </div>
+                <div class="div-qismlari2">
+                    <a href="#">Max Bright</a>
+                </div>
+            </div>
+
+            <div class="chat-item1">
+                <div class="div-qismlari1">
+                    <a href="#"><img src="./img/item7.png" alt=""></a>
+                </div>
+                <div class="div-qismlari2">
+                    <a href="#">Natalie Parker</a>
+                </div>
+            </div>
+
+            <div class="chat-item1">
+                <div class="div-qismlari1">
+                    <a href="#"><img src="./img/item8.png" alt=""></a>
+                </div>
+                <div class="div-qismlari2">
+                    <a href="#">Davy Jones  </a>
+                </div>
+            </div>
+        </div>
+        <div class="chat1-messages">
+            <div class="chat-1-message-qismlari">
+                <h3>Alexandra Smith <br> <span class="span1">last seen recently</span></h3>
+                <div>
+                    <a href="#"><i class="fas fa-search icons icon-search"></i></a>
+                    <a href="#"><i class="fas fa-ellipsis-v icons"></i></a>
+                </div>
+            </div>
+            <div class="messages-div">
+                <div class="chat2-message1">
+                    <h3>Hello my friend <span class="sun-span">2:05</span></h3>
+                </div>
+                <div class="chat2-message2">
+                    <h3>Hi how are you :) <span class="sun-span">2:10<i class="fas fa-check-double tick f-left"></i></span></h3>
+                </div>
+                <div class="chat2-message3">
+                    <h3>Excellent , and you ? <span class="sun-span">2:15</span></h3>
+                </div>
+                <div class="chat2-message4">
+                    <h3>Me too , I can't remember you <span class="sun-span">2:17<i class="fas fa-check-double tick f-left"></i></span></h3>
+                </div>
+                <div class="chat2-message5">
+                    <h3>we met at the office last week <span class="sun-span">2:20</span></h3>
+                </div>
+                <div class="chat2-message6">
+                    <h3>I am Alexandra<span class="sun-span">2:20</span></h3>
+                </div>
+                <div class="chat2-message7">
+                    <h3>Oo sorry Alexandra , I remembered <span class="sun-span">2:22<i class="fas fa-check-double tick f-left"></i></span></h3>
+                </div>
+                <div class="chat2-message8">
+                    <img src="./img/cat.png"><span class="sun-span down">2:25</span>
+                </div>
+                
+                <div class="smiles-menu">
+                    <img class="smiles" src="./img/smiles.png" alt="">
+                </div>
+                
+
+            </div>
+            <div class="type-div">
+                <i class="fas fa-paperclip clipper"></i>
+                <input class="write-message-input" type="text" oninput="uzunlik()" placeholder="Write a message..." id="write">
+                <button class="btn-smile" onclick="smile()">
+                    <i class="far fa-smile smile"></i>
+                </button>
+
+                <img class="microphone" src="img/microphone.png" id="rasm">
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+
